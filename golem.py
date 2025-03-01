@@ -3,14 +3,14 @@ from telegram import Update, KeyboardButton, ReplyKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, ContextTypes, filters
 
 # Path to your binary
-BINARY_PATH = "./bgmi"
+BINARY_PATH = "./Zakir"
 
 # Global variables
 process = None
 target_ip = None
 target_port = None
-attack_time = 600  # Default time
-threads = 400  # Default thread count
+attack_time = 600 
+threads = 500  
 
 # Start command: Show Attack button
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
